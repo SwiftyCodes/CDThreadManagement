@@ -75,7 +75,7 @@ class FoodieService {
         return nil
     }
     
-    func deleteRestaurantList() {
+    func betchDeleteRestaurantList() {
         let request: NSFetchRequest<Restaurant> = Restaurant.fetchRequest()
         let deleteRequest = NSBatchDeleteRequest(fetchRequest: request as! NSFetchRequest<NSFetchRequestResult>)
         
